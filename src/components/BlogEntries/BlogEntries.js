@@ -1,10 +1,13 @@
 import React from "react";
 import BlogEntry from "../BlogEntry/BlogEntry";
+import Square from "../Square/Square";
 
 const BlogEntries = () => {
     return(
         <div className="w3-col l8 s12">
            <BlogEntry
+               color="black"
+               size="10"
                imgUrl="https://habrastorage.org/webt/ed/pz/id/edpzidxeoamreeydjnj1_nnnx30.jpeg"
                title="Как задавать требования к качеству ПО в цифрах?"
                tags="Анализ и проектирование систем *Тестирование IT-систем *Подготовка технической документации *"
