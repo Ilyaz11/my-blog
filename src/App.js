@@ -1,7 +1,18 @@
 import React from "react";
-import Counters from "./components/Counters/Counters";
 import "./App.css";
+import Title from "./components/Title/Title";
+import Img from "./components/Img/Img";
+import Comments from "./components/Comments/Comments";
 
-const App = () => <Counters/>;
+const App = () => {
+    return(
+        <div className="container">
+            <Title/>
+            <Img/>
+            <Comments/>
+        </div>
+    )
+
+}
 
 export default App;
