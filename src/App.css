@@ -53,8 +53,8 @@
 }
 
 .line{
-    border-left: 2px solid red;
-    height: auto;
+    border-top: 2px solid darkgray;
+    width: 100%;
 }
 
 .commentIns{
