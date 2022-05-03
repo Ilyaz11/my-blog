@@ -1,103 +1,53 @@
+ul{
+  margin: 0;
+}
+
 .title {
   text-align: center;
-  color: saddlebrown;
+  color: black;
   font-family: cursive;
 }
 
-.Flex{
-  display: flex;
-  background-color: darkgrey;
-  border-radius: 20px;
+.nav{
+  background-color: firebrick;
+  padding: 25px;
 }
 
-.text{
-  display: flex;
-  flex-direction: column;
-  max-width: 60%;
-  padding: 10px 35px;
+.nav ul li{
+  list-style: none;
+  display: inline-block;
 }
 
-.picture{
-  display: flex;
-  flex-direction: column;
-  max-width: 40%;
-  /*background-size: cover;*/
-  padding: 5px 20px;
-  margin-top: 20px;
+.nav ul li a {
+  text-decoration: none;
+  margin-right: 25px;
+  font-size: 22px;
 }
 
-.firstComment{
-  display: flex;
-  padding: 15px 20px;
+.active-link{
+  color: greenyellow;
+  text-decoration: underline!important;
 }
 
-.secondComment{
-  display: flex;
-  padding: 15px 20px;
+.posts{
+  padding: 25px 50px;
 }
 
-.img{
-  float: right;
-  margin: 0 5px;
-}
-
-.range{
-  height: 2px;
-  background-color: darkgrey;
-  border: none;
-}
-
-.leaveComment{
-  margin-left: 25px;
-  font-size: 20px;
-}
-
-.line{
-  border-top: 2px solid darkgray;
-  width: 100%;
-}
-
-.commentIns{
-  display: flex;
-  flex-direction: column;
-  width: 15%;
-  border-left: 2px solid black;
-  padding: 10px;
-}
-
-.commentKeep{
-  display: flex;
-  flex-direction: column;
-  width: 85%;
-  border-bottom: 2px ridge black;
-  padding: 10px;
-}
-
-.name{
-  width: 30%;
-  padding: 8px;
-  font-size: 17px;
+.posts a{
+  font-size: 22px;
   font-weight: 900;
 }
 
-.comment{
-  width: 30%;
-  padding: 15px;
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 800;
+.post{
+  padding: 15px 100px;
 }
 
-.btn{
-  width: 20%;
-  color: white;
-  background-color: black;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
+.post p{
+  font-size: 22px;
+  font-weight: 700;
 }
 
-.desc{
-  font-size: 16px;
+.posts ul{
   font-weight: 900;
+  color: chocolate;
 }
