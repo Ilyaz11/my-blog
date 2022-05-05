@@ -9,13 +9,12 @@ ul{
 }
 
 .nav{
-  background-color: firebrick;
   padding: 25px;
 }
 
 .nav ul li{
   list-style: none;
-  display: inline-block;
+  display: flex;
 }
 
 .nav ul li a {
