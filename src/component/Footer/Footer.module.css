@@ -1,0 +1,93 @@
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    margin-top: 3300px;
+    background: #254F4C;
+}
+
+.logo{
+    position: absolute;
+    width: 224px;
+    height: 40px;
+    top: 80px;
+    left: 100px;
+}
+
+.cap{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+.nav{
+    padding: 25px;
+}
+
+.ul{
+    list-style: none;
+}
+
+.home{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.delivery{
+    display: inline-block;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.contacts{
+    display: inline-block;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.tel{
+    display: inline-block;
+    margin-left: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}

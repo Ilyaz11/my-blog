@@ -1,0 +1,110 @@
+.thirdSec{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 2400px;
+}
+
+.title{
+    position: absolute;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 29px;
+    color: #254F4C;
+    left: 50px;
+}
+
+.triggers{
+    position: absolute;
+    width: 1120px;
+    height: 186px;
+    top: 90px;
+    left: 50px;
+}
+
+.firstTrigger{
+    position: absolute;
+    width: 256px;
+    height: 184px;
+
+}
+
+.image{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    left: 80px;
+}
+
+.secTitle{
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+}
+
+.textTrigger{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1D3130;
+}
+
+.secondTrigger{
+    position: absolute;
+    width: 256px;
+    height: 184px;
+    left: 290px;
+}
+
+.thirdTrigger{
+    position: absolute;
+    width: 256px;
+    height: 184px;
+    left: 580px;
+}
+
+.fourthTrigger{
+    position: absolute;
+    width: 256px;
+    height: 184px;
+    left: 870px;
+}
+
+.freshFood{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+}
+
+.uniqueMenu{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+}
+
+.delivery{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #254F4C;
+}

@@ -1,6 +1,184 @@
-.topnav a{
+
+.topnav{
     position: absolute;
-    font-weight: 400;
+    width: 495px;
+    height: 24px;
+    left: 453px;
+    top: 32px;
+}
+.home{
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
     font-size: 16px;
-    padding: 10px;
+    line-height: 19px;
+    text-decoration: none;
+    color: chocolate;
+}
+
+.menu{
+    position: absolute;
+    left: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #1D3130;
+}
+
+.dos{
+    position: absolute;
+    left: 182px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #1D3130;
+}
+
+.contacts{
+    position: absolute;
+    left: 290px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #1D3130;
+}
+
+.logo{
+    position: absolute;
+    left: 100px;
+    top: 24px;
+}
+
+.vector{
+    position: absolute;
+    left: 400px;
+}
+
+.tel{
+    position: absolute;
+    width: 136px;
+    height: 24px;
+    left: 450px;
+    bottom: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #1D3130;
+}
+
+.corzina{
+    position: absolute;
+    left: 650px;
+    bottom: 5px;
+}
+
+.comment{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 670px;
+    bottom: -5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FF583E;
+}
+
+.title{
+    position: absolute;
+    width: 400px;
+    height: 256px;
+    left: 10px;
+    top: 10px;
+}
+
+.dostavka{
+    position: absolute;
+    width: 403px;
+    height: 127px;
+    left: 100px;
+    top: 158px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 42px;
+    color: #254F4C;
+}
+
+.sectitle{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 100px;
+    top: 290px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1D3130;
+}
+
+.btn{
+    position: absolute;
+    width: 216px;
+    height: 39px;
+    left: 110px;
+    top: 360px;
+    color: white;
+    border: none;
+    background: #FF583E;
+    border-radius: 100px;
+}
+
+.burger{
+    position: absolute;
+    width: 659px;
+    height: 455px;
+    left: 300px;
+    top: 10px;
+}
+
+.sburger{
+    position: absolute;
+    width: 440px;
+    height: 330px;
+    left: 300px;
+    top: 150px;
+}
+
+.drink{
+    position: absolute;
+    width: 196px;
+    height: 370px;
+    left: 660px;
+    top: 100px;
+}
+
+.cena{
+    position: absolute;
+    width: 63px;
+    height: 104px;
+    left: 496px;
+    top: 100px;
+}
+
+a:hover{
+    color: #FF583E;
+    text-decoration: underline;
 }
