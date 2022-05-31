@@ -1,8 +1,7 @@
 .secSection{
     position: absolute;
     width: 98%;
-    height: 98%;
-    border: none;
+    /*height: 98%;*/
     margin-top: 1300px;
 }
 
